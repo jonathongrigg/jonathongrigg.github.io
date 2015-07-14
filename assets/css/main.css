@@ -171,23 +171,13 @@
 
 /* BG */
 
-	#bg {
-	/* Set your background with this */
-
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
-		height: 100%;
-		left: 0;
-		opacity: 1;
-		position: fixed;
-		top: 0;
-	}
-
-	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
-	}
-
+    html { 
+        background: url(images/bg.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
 /* Main */
 
@@ -559,12 +549,7 @@
 
 			body, input, select, textarea {
 				font-size: 13pt;
-			}
-
-		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
-		} }
+			} }
 
 /* Normal */
 
@@ -574,12 +559,7 @@
 
 			body, input, select, textarea {
 				font-size: 12pt;
-			}
-
-		#bg {
-			background-size: 750px auto;
-			width: 2250px;
-		} }
+			} }
 
 /* Mobile */
 
@@ -594,11 +574,6 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-
-		#bg {
-			background-size: 300px auto;
-			width: 900px;
-		}
 
 	/* Header */
 
@@ -625,11 +600,6 @@
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
-
-		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
-		}
 
 	/* Header */
 
