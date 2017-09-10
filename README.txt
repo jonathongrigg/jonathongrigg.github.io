@@ -1,3 +1,3 @@
 Personal website for Jonathon Grigg
 
-Based off Aerial theme by HTML5 UP (@n33co)
+Based off Story theme by HTML5 UP (@n33co)
